@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: John Lam's blog
 description: Things that I want to write that don't fit into 140 characters
+ASSET_PATH: /assets/themes/jekyll-theme-cayman

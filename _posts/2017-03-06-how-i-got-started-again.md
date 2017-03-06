@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I got started again
+title: "How I got started again"
 ---
 This is supposed to be a Hello, World post. I'm going to write down all of the
 things that I had to do to get this blog up and running again on Github. There
