@@ -30,11 +30,9 @@
             </h1>
         </header>
 
-        {% if page.summary %}
-        <div class="content post-summary">
-            {{ page.summary | markdown | safe }}
+        <div class="content">
+            {{ page.content | safe }}
         </div>
-        {% endif %}
         
         {{ self::page_info(page=page) }}
     </article>
