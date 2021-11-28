@@ -11,7 +11,7 @@ observations.
 To commemorate this, I've captured a screenshot of the VS Code project that
 contains this first post:
 
-<img src="2021-11-26-20-01-27.png" width=200>
+{{ image(src="2021-11-26/2021-11-26-20-01-27.png" width=200)}}
 
 The only thing that's annoying about how this works today is that I need to
 use raw HTML if the captured image needs to be resized for aesthetics. Below
