@@ -1,12 +1,13 @@
 +++
 title="2021-11-26"
+date=2021-11-26
 +++
 
-This is the start of a new blog that I'm writing using VS Code as my editor,
-some extensions and the `zola` markdown engine. The idea is to build something
-that looks like Dave Winer's Scripting.com to let me easily write stream of
-consciousness [Beer Mode](https://perell.com/note/open-mode-and-closed-mode/)
-observations.
+I'm journaling the start of a new blog that I'm writing using VS Code as my
+editor, some extensions and the `zola` markdown engine. The idea is to build
+something that looks like Dave Winer's Scripting.com to let me easily write
+stream of consciousness [Beer
+Mode](https://perell.com/note/open-mode-and-closed-mode/) observations.
 
 To commemorate this, I've captured a screenshot of the VS Code project that
 contains this first post:
