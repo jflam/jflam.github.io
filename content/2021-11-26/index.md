@@ -12,7 +12,7 @@ Mode](https://perell.com/note/open-mode-and-closed-mode/) observations.
 To commemorate this, I've captured a screenshot of the VS Code project that
 contains this first post:
 
-{{ image(src="2021-11-26-20-01-27.png" width=200)}}
+{{ image(src="2021-11-26/2021-11-26-20-01-27.png" width=200)}}
 
 The only thing that's annoying about how this works today is that I need to
 use raw HTML if the captured image needs to be resized for aesthetics. Below
@@ -21,7 +21,7 @@ to need to write a VS Code extension to streamline this process to let me more
 easily fine-tune the appearance of images.
 
 ```html
-<img src="2021-11-26-20-01-27.png" width=200>
+<img src="2021-11-26/2021-11-26-20-01-27.png" width=200>
 ```
 
 I'm using the [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)
@@ -39,7 +39,7 @@ Next, I need to figure out how to include `zola` in a custom
 
 Another image:
 
-![](2021-11-26-23-24-30.png)
+![](2021-11-26/2021-11-26-23-24-30.png)
 
 This is quite possibly the best YouTube video that explains how F1 Cars work.
 He builds a [Blender](https://www.blender.org/) model of the car and proceeds
