@@ -15,11 +15,11 @@ I updated it to use two open source fonts from Google:
 
 This is what Oswald looks like:
 
-{{ image(src="2021-11-27/2021-11-27-16-33-22.png" width=500) }}
+{{ image(src="2021/11/27/2021-11-27-16-33-22.png" width=500) }}
 
 This is what Ubuntu looks like:
 
-{{ image(src="2021-11-27/2021-11-27-16-36-38.png" width=500) }}
+{{ image(src="2021/11/27/2021-11-27-16-36-38.png" width=500) }}
 
 To make this really work, it's going to need tooling, as there is quite a bit
 of friction today. The VS Code extension will need to preview output using
