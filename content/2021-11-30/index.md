@@ -22,6 +22,8 @@ stock the product and tell them that about the coupon in a future edition of
 the newspaper and how they would have angry customers trying to redeem the
 coupon if they didn't buy some stock of the product. Demand generation!
 
+[![My Life in Advertising Book](2021-11-30/2021-11-30-07-53-09.png)](https://www.amazon.com/Life-Advertising-Scientific-Classics-Library/dp/0844231010)
+
 The second was how [Sean Ellis](https://www.linkedin.com/in/seanellis/) in the
 early days of SV startups would go around talking to young founders and
 explain how he could help them "with their marketing". The negative
@@ -30,3 +32,11 @@ the work that he _really_ did, which was helping companies grow. So he
 invented the term "growth hacking" to describe what he does. Brillaint.
 {% end %}
 
+Feature idea: add an last updated (human readable time) byline to the top of
+the blog.
+
+Andrew Chen has a [blog](https://andrewchen.com/) of sorts, which is now
+called a "newsletter" these days. For his job as a VC, it's all about the deal
+flow and writing content helps to attract deal flow. What's cool is that he's
+been doing it since 2005. A complete list of his
+[essays](https://andrewchen.com/list-of-essays/).
