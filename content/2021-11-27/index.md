@@ -13,6 +13,7 @@ layout, and I'm hoping to build something out that looks more like this.
 I updated it to use two open source fonts from Google:
 [Oswald](https://fonts.google.com/specimen/Oswald) for headings and
 [Ubuntu](https://fonts.google.com/specimen/Ubuntu) for body text. 
+{% end %}
 
 This is what Oswald looks like:
 
@@ -21,7 +22,6 @@ This is what Oswald looks like:
 This is what Ubuntu looks like:
 
 {{ image(src="2021-11-27/2021-11-27-16-36-38.png" width=500) }}
-{% end %}
 
 {% block() %}
 To make this really work, it's going to need tooling, as there is quite a bit

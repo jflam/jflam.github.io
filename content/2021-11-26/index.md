@@ -12,8 +12,9 @@ Mode](https://perell.com/note/open-mode-and-closed-mode/) observations.
 
 To commemorate this, I've captured a screenshot of the VS Code project that
 contains this first post:
+{% end %}
 
-{{ image(src="2021-11-26/2021-11-26-20-01-27.png" width=200)}}
+{% image(src="2021-11-26/2021-11-26-20-01-27.png" width=200) %}
 
 The only thing that's annoying about how this works today is that I need to
 use raw HTML if the captured image needs to be resized for aesthetics. Below
@@ -24,7 +25,6 @@ easily fine-tune the appearance of images.
 ```html
 <img src="2021-11-26/2021-11-26-20-01-27.png" width=200>
 ```
-{% end %}
 
 {% block() %}
 I'm using the [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)
@@ -63,7 +63,6 @@ the spike protein.
 {{ twitter(id="1464452102382448643")}}
 {% end %}
 
-{% block() %}
 :bulb: There's probably a `zola` VS Code extension waiting to be written that
 will do things like take a copied YouTube or Twitter URI and turn it into
 one of the shortcodes in this repository. I think that the extension should
@@ -71,4 +70,3 @@ also start a background `zola` process that will render the preview in place
 of the existing VS Code markdown preview. Finally, it should have a feature
 that will generate the appropriate GitHub Actions to publish to GitHub pages
 after pushing to the remote.
-{% end %}
