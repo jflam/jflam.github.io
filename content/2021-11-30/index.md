@@ -32,11 +32,29 @@ the work that he _really_ did, which was helping companies grow. So he
 invented the term "growth hacking" to describe what he does. Brillaint.
 {% end %}
 
+{% block() %}
 Feature idea: add an last updated (human readable time) byline to the top of
 the blog.
+{% end %}
 
+{% block() %}
 Andrew Chen has a [blog](https://andrewchen.com/) of sorts, which is now
 called a "newsletter" these days. For his job as a VC, it's all about the deal
 flow and writing content helps to attract deal flow. What's cool is that he's
 been doing it since 2005. A complete list of his
 [essays](https://andrewchen.com/list-of-essays/).
+{% end %}
+
+{% block() %}
+[Shreyas Doshi](https://twitter.com/shreyas) is one of my favorite people on
+Twitter, and one that has earned a spot in my TweetDeck columns (I don't use
+algorithmic feeds for my own sanity). He recently started writing in public
+about his idea about different types of people in organizations, which led to
+this excellent summary by Sam Higham:
+
+{{ twitter(id="1465681344709775363")}}
+
+If I'm honest with myself, I've been in every one of these roles over my
+career. The other important observation is that a team needs a mix of these
+people too! 
+{% end %}
