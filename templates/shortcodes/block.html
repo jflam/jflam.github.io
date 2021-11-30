@@ -1,0 +1,5 @@
+<a name="a{{ nth }}"></a>
+<p>
+{{ body | markdown(inline=true) | safe }}
+<a href="{{ page.permalink | trim_end_matches(pat="/") | safe }}#a{{ nth }}" title="Direct link to this item.">#</a>
+</p>
