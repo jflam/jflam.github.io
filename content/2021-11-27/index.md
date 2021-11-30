@@ -3,6 +3,7 @@ title="2021-11-27"
 date=2021-11-27
 +++
 
+{% block() %}
 Hello [Zola](https://www.getzola.org/documentation/templates/overview/) supports the
 [Tera](https://tera.netlify.app/) templating engine. Today I'm going to update
 the way my blog renders by rendering in a continuous style much like how Dave
@@ -20,7 +21,9 @@ This is what Oswald looks like:
 This is what Ubuntu looks like:
 
 {{ image(src="2021-11-27/2021-11-27-16-36-38.png" width=500) }}
+{% end %}
 
+{% block() %}
 To make this really work, it's going to need tooling, as there is quite a bit
 of friction today. The VS Code extension will need to preview output using
 `zola`. It will also need to analyze clipboard formats and generate
@@ -49,3 +52,5 @@ So there are a few things that I need to learn:
 2. Have a generic extension that understands how to expand templates based
    on pattern matches for URIs and uses a template engine to generate text 
    that is pasted into the app.
+
+{% end %}

@@ -3,6 +3,7 @@ title="2021-11-28"
 date=2021-11-28
 +++
 
+{% block() %}
 Writing a VS Code extension requires understanding how activation works and
 where state is stored. The [Activation
 Events](https://code.visualstudio.com/api/references/activation-events) page
@@ -15,7 +16,9 @@ blog. the `workspaceContains` event uses a glob pattern to look for a file of
 interest. I think that `**/*.config.toml` is probably good enough for now, and
 I could even not activate the extension if I find that it doesn't have the
 right parameters inside the file.
+{% end %}
 
+{% block() %}
 `vscode-zola` now supports emitting shortcodes based on URIs copied from the
 clipboard. For most cases where I copy a URI for YouTube, Twitter, or 
 Instagram content, the extension will emit the proper `zola` shortcodes and 
@@ -40,7 +43,9 @@ make YouTube great:
 Paula vs. Eric in a Specialized Tarmac vs. Epic showdown:
 
 {{ instagram(id="CW1lrUvvSry")}}
+{% end %}
 
+{% block() %}
 After running this blog on GitHub pages over the weekend, I decided to try
 something new and created a [CloudFlare](https://cloudflare.com) account.
 While I was having some troubles with GitHub pages occassionally not rendering
@@ -70,7 +75,9 @@ is that the container(?) that is used to build takes a long time to initialize
 compared to GitHub Actions. When I look at the logs, it seems like this
 container is used not just by `zola` but it installs other static web site
 generators like `Hugo` as well. 
+{% end %}
 
+{% block() %}
 I've got a working version of my first VS Code extension,
 [vscode-zola](https://github.com/jflam/vscode-zola). I'm using it to write
 this post now. So far, it supports:
@@ -97,3 +104,4 @@ Some future features that I want to add include:
   a permalink that users can use to link directly to that part of the post.
   This is how `Scripting News` works and I want to make it easy to do so using
   nothing more than plain-vanilla markdown.
+{% end %}
