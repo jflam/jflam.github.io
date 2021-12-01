@@ -58,3 +58,10 @@ If I'm honest with myself, I've been in every one of these roles over my
 career. The other important observation is that a team needs a mix of these
 people too! 
 {% end %}
+
+I cannot resist a great Feynmann story, and this one by [Paul
+Stenhardt](https://paulsteinhardt.org/) on [What Impossible Meant to Richard
+Feynmann](https://nautil.us/issue/108/change/what-impossible-meant-to-richard-feynman)
+was a great story! _Impossible_ to Feynmann is a compliment. _Stupid_ is
+something applied not just to others but to himself as well.
+
