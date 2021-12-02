@@ -37,3 +37,21 @@ the reliability of those systems ("it's decentralized so it can't fail!")
 
 Go read it. I'll wait.
 {% end %}
+
+{% block() %}
+I'm really happy with rebooting this blog using Cloudflare Pages. In an
+attempt to build a more interesting site with interactive content (e.g.,
+embedded YouTube videos, Twitter and Linked in blocks etc.) I've found that
+the size of the site (and the bloated-ness) of the site has increased
+dramatically. It's 100% due to how I'm using JavaScript to embed those
+external services. This is a
+[report](https://tools.pingdom.com/#5f5f1784e7c00000) that I just ran this
+morning:
+
+TODO: paste the image
+
+I think that in the future, I need to teach `vscode-zola` how to embed
+an image of, say the YouTube video, the Twitter post or the Instagram post
+with a link to the original instead of doing these crazy embeddings. The 
+fact that my web page is 6.4MB is _inconceivable_.
+{% end %}
