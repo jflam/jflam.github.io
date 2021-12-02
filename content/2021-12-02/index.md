@@ -48,7 +48,7 @@ external services. This is a
 [report](https://tools.pingdom.com/#5f5f1784e7c00000) that I just ran this
 morning:
 
-TODO: paste the image
+![](2021-12-02/2021-12-02-11-28-16.png)
 
 I think that in the future, I need to teach `vscode-zola` how to embed
 an image of, say the YouTube video, the Twitter post or the Instagram post
