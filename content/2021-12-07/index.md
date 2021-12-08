@@ -49,3 +49,18 @@ I promise you it's worth sticking through to the end.
 
 {{ youtube(id="lw6TaiXzHAE")}}
 {% end %}
+
+{% block() %}
+
+I finished implementing the zola serve preview in my
+[vscode-zola](https://www.youtube.com/watch?v=0XDawYp9mKY) VS Code extension.
+It contains everything that I know (which isn't very much) about writing
+extensions, JavaScript and TypeScript. I also learned how to package my
+extension into a VSIX using the
+[vsce](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+tool so now I can write using VS Code and not have to first build and run my
+extension from another VS Code! If I find that I like how I use it over the
+next few days, I'll publish it to the VS Code Marketplace and post a link to
+the zola community. 
+
+{% end %}
