@@ -26,12 +26,12 @@
     <article class="post-list">
         <header> 
             <h1>
-                <a href="{{ page.permalink }}">{{ page.title }}</a>
+                <a href="{{ get_url(path=page.path, trailing_slash=false) }}">{{ page.title }}</a>
             </h1>
         </header>
 
         <div class="content">
-            {{ page.content | safe }}
+            {{ page.content | markdown | safe }}
         </div>
         
         {{ self::page_info(page=page) }}
