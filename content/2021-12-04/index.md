@@ -32,7 +32,6 @@ syntax:
 
 That's it! Here's a screenshot of how this looks in tweetdeck
 
-![Screenshot of Tweetdeck with search columns
-only](2021-12-04/2021-12-04-00-31-33.png)
-
 {% end %}
+
+{{ image(src="2021-12-04/2021-12-04-00-31-33.png" width=600) }}
