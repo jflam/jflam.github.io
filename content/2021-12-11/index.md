@@ -3,6 +3,7 @@ title="2021-12-11"
 date=2021-12-11
 +++
 
+{% block() %}
 A recent interview with Anders Hejlsberg!
 
 ![Anders Hejlsberg](2021-12-11/2021-12-11-01-09-01.png)
@@ -53,3 +54,47 @@ I found this on [Hacker News](https://news.ycombinator.com/item?id=29514900)
   symbol table in Turbo Pascal 2.0 using them [local copy in case this
   disappears from the web](2021-12-11/AlgoDataProgWirth.pdf)
 - He learned by trial and error without formal background
+
+{% end %}
+
+{% block() %}
+
+I like it when things that I read and don't agree with get me thinking about
+an idea. This post by David Perell spent some time rattling around in my
+subconscious:
+
+{{ twitter(id="1468675151407497219")}}
+
+I didn't agree with it because almost all software that I use today requires
+me to Google something to figure out an obscure feature - there are _always_
+obscure features especially in software that I don't use all the time. If I
+don't know how to do something already using the UI, I would immediately
+Google it and follow the directions on how to accomplish the task.
+
+I was out riding my bike today, and listening to Neal Stephenson being
+interviewed by Lex Fridman. During the conversation they talked about Google
+and search. The idea that popped into my head then was that UI is great for
+_idiomatic_ operations and search is great for everything else.
+
+{{ youtube(id="xAfdSak2fs8")}}
+
+The example in my head was VS Code. The idiomatic operations are provided by
+the UI, e.g., vi keybindings for navigating a document, tabs for managing
+multiple documents, a file explorer for viewing the contents of your project,
+a debugging tab for viewing the state of variables in the debugger etc. IMHO
+the real innovation in VS Code is the command palette which lets you search
+for the command that you want - this avoids over-complicating the UI with
+endless toolbars. VS Code users quickly learn to use the fuzzy search in the
+command palette to find the command that they are looking for. They even have
+the ability to bind those commands to a custom keybinding to turn it into an
+idiomatic operation if they use that command often enough.
+
+I think this strikes the right balance between a rich featureset and a simple,
+idiomatic UI. Unfortunately, it seems that in our attempt to simplify 
+everything for the novice user, we have wound up with UIs that have way too
+many layers of UI (I'm looking at you, Microsoft Teams).
+
+I wonder what a better experience for search would be on mobile though? A
+command palette is a lot more difficult to use on a phone.
+
+{% end %}
