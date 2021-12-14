@@ -45,10 +45,10 @@ care about (e.g., you don't need to live close to an office to go to work) -
 and it's on a steeper slope of improvement.
 
 I know I'll be watching this area closely and learning. It's tempting to want
-to dismiss this because of on this technology. But that's not an excuse to
-ignore it or try to block it. Technology is chaotic neutral and can't be
-un-invented. It's up to all of us to create a better experience for ourselves
-using it.
+to dismiss this because of the dystopian takes on this technology. But that's
+not an excuse to ignore it or try to block it. Technology is chaotic neutral
+and can't be un-invented. It's up to all of us to create a better experience
+for ourselves using it.
 
 {{ youtube(id="cSp1dM2Vj48")}}
 
