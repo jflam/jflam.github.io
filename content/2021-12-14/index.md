@@ -59,4 +59,6 @@ I highly recommend listening to this; the stories that Christensen tells about
 his conversations with Andy Grove are wonderful and do a great job at driving
 home the concepts of his theory of disruption. RIP.
 
+![](2021-12-14/2021-12-14-11-23-53.png)
+
 {% end %}
