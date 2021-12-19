@@ -3,6 +3,7 @@ title="2021-12-19"
 date=2021-12-19
 +++
 
+{% block() %}
 Today, I'm starting to work on the 4th edition of the
 [fastai](https://github.com/fastai/fastai) course, and I'll be note-taking on
 this blog. At the start Jeremy shows this lovely photo of the Mark 1
@@ -54,3 +55,15 @@ key to open up Codespaces in the browser to view the contents of the notebook:
 Of course, if you are able to, please support the authors by
 [purchasing](https://www.oreilly.com/library/view/deep-learning-for/9781492045519/)
 a copy of the book.
+{% end %}
+
+Jerermy introduces his pedagogy for the class at the start, based on the work
+of David Perkins. I love this image:
+
+![](2021-12-19/2021-12-19-08-19-21.png)
+
+Begin by "building state-of-the-art world-class models" as your Hello, World.
+
+Jeremy and Sylvain wrote a paper on the [fastai
+library](https://arxiv.org/abs/2002.04688) which is the layer of software on
+top of PyTorch that is used in the course.
