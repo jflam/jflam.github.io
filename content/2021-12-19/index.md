@@ -3,7 +3,6 @@ title="2021-12-19"
 date=2021-12-19
 +++
 
-{% block() %}
 Today, I'm starting to work on the 4th edition of the
 [fastai](https://github.com/fastai/fastai) course, and I'll be note-taking on
 this blog. At the start Jeremy shows this lovely photo of the Mark 1
@@ -20,7 +19,7 @@ locally on my Windows machine which has an RTX2080 GPU. All I need to do is
 run a single command: 
 
 ```bash
-ez env go git@github.com:jflam/fastai -n .
+$ ez env go git@github.com:jflam/fastai -n .
 ```
 
 You'll notice that I'm using my own [fork](https://github.com/jflam/fastai) of
@@ -67,3 +66,23 @@ Begin by "building state-of-the-art world-class models" as your Hello, World.
 Jeremy and Sylvain wrote a paper on the [fastai
 library](https://arxiv.org/abs/2002.04688) which is the layer of software on
 top of PyTorch that is used in the course.
+
+While following along in the first video of the course, I realized that 
+Jeremy is running some of the cells in the notebooks from the [fastbook](https://github.com/fastai/fastbook) repo. So I forked and copied the `ez.json` file into that 
+repo and was quickly able to reproduce his results using `ez`:
+
+```bash
+ez env go -g git@github.com/jflam/fastbook -n .
+```
+
+A quick note - the `-n .` parameter tells `ez` to run the repo locally. `ez`
+also supports running on Azure VMs using the same command. See the docs in the
+[ez](https://github.com/jflam/ez) for more details on the setup on Azure (it's
+only 2 additional commands!)
+
+This is a screenshot from my computer this morning after running the first
+model in the course. You can see that I'm using the Outline feature in VS Code
+notebooks to see an outline of the different sections from the first chapter
+of the book:
+
+![](2021-12-19/2021-12-19-09-42-15.png)
