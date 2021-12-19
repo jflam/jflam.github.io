@@ -51,13 +51,14 @@ vs. the interests of the aggregator.
 
 I listened to Professor Christensen on this podcast the year it came out
 (2004!) and it left an indelible impression on me. Sadly, it looks like IT
-Converstaions no longer exists, and I found this [archive of the
+Conversations no longer exists, and I found this [archive of the
 page](http://web.archive.org/web/20130729212828id_/http://itc.conversationsnetwork.org/shows/detail135.html)
-created by the awesome folks at archive.org. I also [copied it to this
-blog](2021-12-14/Christensen.mp3) so that I can find it again - just in case.
-I highly recommend listening to this; the stories that Christensen tells about
-his conversations with Andy Grove are wonderful and do a great job at driving
-home the concepts of his theory of disruption. RIP.
+created by the awesome folks at archive.org. I also copied it to this [part
+1](2021-12-14/Christensen-part1.mp3) and [part
+2](2021-12-14/Christensen-part2.mp3) so that I can find it again - just in
+case. I highly recommend listening to this; the stories that Christensen tells
+about his conversations with Andy Grove are wonderful and do a great job at
+driving home the concepts of his theory of disruption. RIP.
 
 ![](2021-12-14/2021-12-14-11-23-53.png)
 
