@@ -61,3 +61,11 @@ a fantastic job on this task.
 
 [source](https://unix.stackexchange.com/questions/280767/how-do-i-split-an-audio-file-into-multiple)
 {% end %}
+
+{% block() %}
+Perhaps the greatest productivity hack ever created is [News Feed
+Eradicator](https://github.com/jordwest/news-feed-eradicator/). I use this for
+Twitter so that I still have the ability to read specific tweets, e.g., they
+were linked from somewhere else or I can look up a specific user. But the
+algorithmic feed is gone. It's _lovely_.
+{% end %}
