@@ -86,3 +86,101 @@ notebooks to see an outline of the different sections from the first chapter
 of the book:
 
 ![](2021-12-19/2021-12-19-09-42-15.png)
+
+Terminology:
+- _classification_ model predicts one of a number of discrete possibilities,
+  e.g., "dog" or "cat
+- _regression_ models predict a numeric (continuous?) quantity
+
+`valid_pct=0.2` in the code means that it holds back 20% of the data to
+validate the accuracy of the model. This is also the default in case you
+forget to set it
+
+a _learner_ contains your data, your architecture and also a metric to
+optimize for:
+
+```python
+learn = cnn_learner(dls, resnet34, metrics=error_rate)
+```
+
+An `epoch` is looking at every item in the dataset once
+
+`accuracy` is another function which is define as `1.0 - error_rate`
+
+error_rate and accuracy are not good _loss functions_ which is a bit
+counter-intuitive as those are the values that humans care about, but it turns
+out that they are poor loss functions which are used to tune the parameters in
+the model across epochs
+
+fastai uses the validation set to determine the accuracy or error rate of a 
+model
+
+Remember that a model is parameters + architecture
+
+Training, validation, test datasets - this is used for things like Kaggle
+
+Actual performance is withheld from models so that you can avoid the
+overfitting problem as well
+
+In a time series you can't really create a validation dataset by random
+sampling, instead you need to chop off the end, since that's really the goal -
+to predict the future, not make predictions at random points in the past. We 
+need to have different sampling algorithms based on the nature of the data and
+the predictions desired.
+
+Discusses a case about loss functions vs. metrics. One way to think about
+overfitting is a case where your model keeps getting better at making
+predictions in the training dataset, but starts getting worse against the
+validation dataset. This can be an indication of overfitting. Jeremy cautions
+that this is different from changes in the loss function however, and he will
+get into the mathematics behind this later when he discusses loss functions in
+more detail.
+
+Definition: _transfer learning_ is using a pretrained model for a task
+different from the one it was originally trained for. The `fine_tune()` method
+called that because it is doing transfer learning. In the examples earlier
+with resnet34, it was performing transfer learning against the model to get
+the superior performance. It lets you use less data and less compute to
+accomplish our goals.
+
+Zeiler and Fergus published a paper in 2013 [Visualizing and Understanding
+Convolutional Networks](https://arxiv.org/abs/1311.2901). It showed how
+different layers in the network recognize initially simple patterns and then
+become more specialized in later layers. I think this is done by activations
+of different filters against an image, so that you can see the parts of the
+image that a filter gets activated against. This paper gives a good mental
+model for thinking about how filters can be generalized and how transfer
+learning can take advantage of filters in earlier layers.
+
+Sound detection can work by turning sounds into pictures and using CNNs to
+classify them:
+
+![](2021-12-19/2021-12-19-22-16-17.png)
+
+Here's a really cool example of detecting fraudulent activity by looking at
+traces of mouse movements and clicks and turning them into pictures (done by a
+fastai student at Splunk - [blog that announced this
+result](https://www.splunk.com/en_us/blog/security/deep-learning-with-splunk-and-tensorflow-for-security-catching-the-fraudster-in-neural-networks-with-behavioral-biometrics.html)
+
+
+![](2021-12-19/2021-12-19-22-15-22.png)
+
+What happens when you fine tune an existing model - does it perform worse on
+detecting things that it used to do before the fine tuning dataset? In the
+literature this is called [catastrophic forgetting or catastrophic
+interference](https://en.wikipedia.org/wiki/Catastrophic_interference). To
+mitigate this problem you need to continue to provide data for other
+categories that you want detected during the fine tuning (transfer learning)
+stage.
+
+When looking for pretrained model, you can search for `model zoo` or
+`pretrained models`.
+
+He has a number of different categories: vision, text, tabular, recommendation
+systems.
+
+Recommendation systems == collaborative filtering
+
+Recommendation != Prediction
+
+
