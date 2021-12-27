@@ -33,3 +33,17 @@ cost, e.g., if a flight cost $1200, I would sell for $1000 and redeem 25K
 miles for $1000 for an unheard-of $.04 per mile. Yes, I would get taxed on
 the income for that flight but that was still an unheard-of redemption rate
 for miles.
+
+One of the challenges of building a semantic search engine is splitting the
+input text into smaller chunks that are suitable for generating embeddings
+using Transformer models. This
+[thread](https://discuss.huggingface.co/t/sentence-splitting/5393) on the
+Huggingface forums does a good job at breaking down the problem into smaller
+pieces. The key insight from `lewfun` is using a sliding window algorithm over
+the text in the document. For those who don't know, there is a limit on the
+number of tokens (roughly words) that can be fed to a model. By using a
+sliding window algorithm, you block the entire document and can map each block
+back to the same original document. This way, you can use similarity based
+models to generate a ranked list that maps back to the original document. This
+will be the way that I will build the first version of my semantic search
+engine.
