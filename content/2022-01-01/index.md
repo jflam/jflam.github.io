@@ -52,3 +52,47 @@ over the years. I'm proud to be able to carry forward his work and I'll
 continue to think of him often as we continue on his journey.
 
 Godspeed, Euan.
+
+## More on the metaverse
+
+So I was procrastinating today after discovering Tim Urban on Twitter (how is 
+it possible that I did not know he existed?):
+
+{{ twitter(id="1476962460049584136")}}
+
+I went down the rabbit hole and discovered his TED Talk:
+
+{{ youtube(id="arj7oStGLkU")}}
+
+And his incredibly [funny
+writeup](https://waitbutwhy.com/2016/03/doing-a-ted-talk-the-full-story.html)
+of what it was like to write his TED Talk.
+
+I was watching it on my phone while sitting on my couch next to my dog who
+loves to sleep on my couch. Which got me thinking about what this experience
+would be like if I were watching this in VR. It struck me then, in the middle
+of watching a talk on procrastination, that at limits of technology, **it
+wouldn't look any different at all**.
+
+That's a problem. It also got me thinking about how early movies looked no
+different than watching a play at a theater ... they haven't invented editing
+yet! So they simply recorded what it was like to watch a play, which made it
+possible for people who were not in the room at the time that the play was
+showing to experience the play, albeit in a somewhat degraded experience.
+
+My experience in Horizon Meeting Rooms yesterday was one where it feels like
+those early movies - we are literally putting people into a 3D room to
+experience what it would be like to be in the same place physically. That to
+me feels like those early movies - we made it possible for people to
+experience a play without being in the same space physically. But why should
+we be constrained by the limitations of reality? What is the equivalent of 
+editing in the metaverse? I don't have any answers here, but at least I have
+figured out a question and that's a start.
+
+(An aside) I viscerally remember this thought popping into my head while I was
+watching Tim's talk. I think this is another great example of [Beer
+Mode](https://perell.com/note/open-mode-and-closed-mode/) thinking which I
+think is extremely important for creative professionals. Random inputs can 
+stimulate thinking in different and unexpected ways, especially with ideas 
+that are tumbling around in your subconcious. Or at least that's how I'm
+justifying procrastination.
