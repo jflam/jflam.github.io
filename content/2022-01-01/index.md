@@ -96,3 +96,73 @@ think is extremely important for creative professionals. Random inputs can
 stimulate thinking in different and unexpected ways, especially with ideas 
 that are tumbling around in your subconcious. Or at least that's how I'm
 justifying procrastination.
+
+## Spatial context and VR
+
+Here's a sequence of photos that I took today at the Microsoft Library:
+
+![Bookshelves](2022-01-01/2022-01-01-20-23-31.png)
+![Bookshelf](2022-01-01/2022-01-01-20-24-05.png)
+![Shelf](2022-01-01/2022-01-01-20-24-24.png)
+![Book](2022-01-01/2022-01-01-20-24-44.png)
+![Summary Table of Contents](2022-01-01/2022-01-01-20-25-08.png)
+![Detail Table of Contents](2022-01-01/2022-01-01-20-25-31.png)
+![Page](2022-01-01/2022-01-01-20-25-51.png)
+![Page Detail](2022-01-01/2022-01-01-20-26-04.png)
+
+They represent zooming in on a piece of information. I find that my memory
+works this way - I can remember where something is located spatially, often
+times even in cases where I cannot remember the information itself.
+
+Today, VR-based solutions like [Horizon
+Workrooms](https://about.fb.com/news/2021/08/introducing-horizon-workrooms-remote-collaboration-reimagined/)
+create meeting spaces that mimic existing meeting rooms. Since I haven't yet
+had meetings inside of a Workroom yet, I can't comment on the experience
+first-hand. But watching some YouTube videos it seems like they're striving to
+create an experience that mimics a real-world meeting room, which is great
+start and requires a tremendous amount of engineering effort to get right.
+
+But let's imagine that we're not limited by what we can do in a physical
+meeting room. What if we could take advantage of our spatial memory and leave
+objects around the room? What if those objects could be zoomed into
+"infinitely" to reveal more about what they represent? What if we could
+version control the state of the objects in the room? 
+
+One of the great things about being messy, like these famous desks is that
+they respresent __saved context__ in a physical space. I would like to imagine
+that those piles represent trains of thought and can help bring them back into
+the context (or at least remind them of the context!)
+
+![Albert Einstein's desk](2022-01-01/2022-01-01-17-08-54.png)
+![Tony Hsieh's desk](2022-01-01/2022-01-01-17-08-07.png)
+![Steve Jobs desk](2022-01-01/2022-01-01-17-07-33.png)
+
+Modern information is mainly accessed in one of two ways: by search or through
+storing files in a file system. The problem with both of these approaches is
+that neither of them take advantage of our natural spatial awareness or our
+ability to organize information into hierarchies (you're already good at this
+- you can probably tell me exactly where in your house your toothbrush, your
+keys, or the milk is located). 
+
+What's worse is that they also remove any cues you may have that the
+information exists at all. What would be great is if we could have a system
+where you could arrange the information spatially, and that spatial
+information could be version controlled. This way the context is maintained.
+
+Shared meeting room spaces are reset for each meeting. However, what if we can
+always recreate (or even version control) different meeting contexts? If I met
+with you last week, when we re-enter the meeting room everything is exactly
+where we left it from our last visit. This way we can take advantage of our
+spatial memory to organize information in a virtual space instead of relying
+on search or other cumbersome window-based ways of retrieving information. We
+could also integrate this with search "find my car keys in the house", which
+would reveal the item and its location.
+
+This way we can transcend what is possible spatially and not create a world
+that is merely a lower-fidelity imitation of the real world. I get that the
+primary benefit that early adopters get from Workrooms is going to be allowing
+people that are distant to collaborate in a more meaninful way, much like
+those early films allowed people not in the room to experience the play.
+That's already super-valuable, especially in today's world. But perhaps
+spatial context could be akin to editing in films and create an entirely new
+medium in which we can collaborate?
