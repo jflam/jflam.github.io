@@ -53,6 +53,9 @@ continue to think of him often as we continue on his journey.
 
 Godspeed, Euan.
 
+PS others have shared [their memories of
+Euan](https://www.kudoboard.com/boards/vKRd51s1)
+
 ## More on the metaverse
 
 So I was procrastinating today after discovering Tim Urban on Twitter (how is 
