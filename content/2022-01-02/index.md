@@ -47,3 +47,9 @@ Incidentally, this idea came about when I was watching Tim's Google Talk this
 morning:
 
 {{ youtube(id="mCzaxZZPmN4")}}
+
+## Myelin
+
+This is a beautiful picture of what a myelinated axon looks like:
+
+![](2022-01-02-19-42-40.png)
