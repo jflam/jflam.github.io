@@ -26,3 +26,10 @@ Surprising Behaviors shows these clearly.
 
 But given the extremely large number of episodes that lead to the behaviors,
 I wonder how they were able to see these behaviors?
+
+UPDATE: I just discovered the [Two Minute
+Papers](https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg) channel on
+YouTube and they do a great job of summarizing the paper in this video.
+Subscribed.
+
+{{ youtube(id="Lu56xVlZ40M")}}
