@@ -13,6 +13,10 @@ of what I learned from them. In the spirit the best time to start a podcast
 was 20 years ago and the next best time is right now, I'm going to try and
 make up for lost time. 
 
+For those arriving in the future, here's a [link to the main page of my
+podcast](https://john-lam-podcast.simplecast.com/). I need to find a place
+for it on this blog as well.
+
 I started my experiment by interviewing people on my team. Here's my
 conversation with Austin Henley, former Assistant Professor at the University
 of Tennessee and the newest member of the PROSE (Program Synthesis) team at
